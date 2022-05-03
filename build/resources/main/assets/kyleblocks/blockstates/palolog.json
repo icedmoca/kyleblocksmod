@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "kyleblocks:palolog"
+    },
+    "facing=south": {
+      "model": "kyleblocks:palolog"
+    },
+    "facing=north": {
+      "model": "kyleblocks:palolog"
+    },
+    "facing=east": {
+      "model": "kyleblocks:palolog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "kyleblocks:palolog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "kyleblocks:palolog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "kyleblocks:palolog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

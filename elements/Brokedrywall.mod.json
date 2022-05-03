@@ -1,0 +1,17 @@
+{
+  "_fv": 4,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "You are now a Kyle!",
+    "achievementDescription": "Break more...",
+    "achievementIcon": {
+      "value": "CUSTOM:Drywall"
+    },
+    "achievementType": "task",
+    "parent": {
+      "value": "story/root"
+    },
+    "locx": 0,
+    "locy": 0
+  }
+}

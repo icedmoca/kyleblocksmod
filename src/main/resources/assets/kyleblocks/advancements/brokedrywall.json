@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "kyleblocks:drywall"
+    },
+    "title": {
+      "translate": "advancements.brokedrywall.title"
+    },
+    "description": {
+      "translate": "advancements.brokedrywall.descr"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "brokedrywall": {
+      "trigger": "brokedrywall"
+    }
+  },
+  "parent": "minecraft:story/root"
+}

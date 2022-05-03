@@ -1,0 +1,10 @@
+{
+  "parent": "kyleblocks:custom/light",
+  "textures": {
+    "all": "kyleblocks:blocks/flatcoloredblock_glass",
+    "particle": "kyleblocks:blocks/flatcoloredblock_glass",
+    "cats_eye_frame": "kyleblocks:blocks/cats_eye_frame",
+    "ceiling_neon_lamp": "kyleblocks:blocks/toughglass4",
+    "flatcoloredblock_glass": "kyleblocks:blocks/flatcoloredblock_glass"
+  }
+}

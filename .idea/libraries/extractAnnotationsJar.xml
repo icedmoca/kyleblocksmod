@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="extractAnnotationsJar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/tmp/extractAnnotationsJar/input1936308002030923529.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/tmp/extractAnnotationsJar/input6493487935377072505.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/tmp/extractAnnotationsJar/input206707326393630373.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/tmp/extractAnnotationsJar/input4013375187422928025.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "cats_eye_frame": "cats_eye_frame",
+        "ceiling_neon_lamp": "toughglass4",
+        "flatcoloredblock_glass": "flatcoloredblock_glass"
+      },
+      "name": "default"
+    }
+  }
+}

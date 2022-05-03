@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "sidewalk_kerb": "sidewalk_kerb"
+      },
+      "name": "default"
+    }
+  }
+}

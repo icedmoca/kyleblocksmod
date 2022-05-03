@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "kyleblocks:blocks/skyscraperblocks12",
+    "particle": "kyleblocks:blocks/skyscraperblocks12"
+  }
+}

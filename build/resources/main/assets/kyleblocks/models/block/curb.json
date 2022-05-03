@@ -1,0 +1,8 @@
+{
+  "parent": "kyleblocks:custom/curb",
+  "textures": {
+    "all": "kyleblocks:blocks/sidewalk_kerb",
+    "particle": "kyleblocks:blocks/sidewalk_kerb",
+    "sidewalk_kerb": "kyleblocks:blocks/sidewalk_kerb"
+  }
+}

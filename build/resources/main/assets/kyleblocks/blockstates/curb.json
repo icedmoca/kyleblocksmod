@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "normal": {
+      "model": "kyleblocks:curb"
+    },
+    "facing=north": {
+      "model": "kyleblocks:curb"
+    },
+    "facing=east": {
+      "model": "kyleblocks:curb",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kyleblocks:curb",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kyleblocks:curb",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "kyleblocks:curb",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "kyleblocks:curb",
+      "x": 90
+    }
+  }
+}

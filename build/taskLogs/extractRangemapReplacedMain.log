@@ -1,0 +1,64 @@
+Unsupposrted library path: C:\Users\kyleu\MCreatorWorkspaces\kyleblocks\build\classes\java\api
+Unsupposrted library path: C:\Users\kyleu\MCreatorWorkspaces\kyleblocks\build\resources\api
+Symbol range map extraction starting
+Processing 20 files
+startProcessing "net/mcreator/kyleblocks/ClientProxykyleblocks.java" md5: bcf78e7d29c5fe471151b8cc09daff9c
+endProcessing "net/mcreator/kyleblocks/ClientProxykyleblocks.java"
+
+startProcessing "net/mcreator/kyleblocks/Elementskyleblocks.java" md5: 68649e85aebb9b82cfc8316ca8bcee3e
+endProcessing "net/mcreator/kyleblocks/Elementskyleblocks.java"
+
+startProcessing "net/mcreator/kyleblocks/IProxykyleblocks.java" md5: 87731945d9274e6262e628901bf05802
+endProcessing "net/mcreator/kyleblocks/IProxykyleblocks.java"
+
+startProcessing "net/mcreator/kyleblocks/MCreatorBrokedrywall.java" md5: 6bd8bb12bc0fe5ef08c3c66e1a61002e
+endProcessing "net/mcreator/kyleblocks/MCreatorBrokedrywall.java"
+
+startProcessing "net/mcreator/kyleblocks/MCreatorCeilingtile.java" md5: 366d59dd3c52772b04ef6a97b625e7b8
+endProcessing "net/mcreator/kyleblocks/MCreatorCeilingtile.java"
+
+startProcessing "net/mcreator/kyleblocks/MCreatorCeramicBlockTiles.java" md5: 0e9fa73f96e5bc92cf03982a42771201
+endProcessing "net/mcreator/kyleblocks/MCreatorCeramicBlockTiles.java"
+
+startProcessing "net/mcreator/kyleblocks/MCreatorCurb.java" md5: 9a785f39c64667ac14186e1ff3758da3
+endProcessing "net/mcreator/kyleblocks/MCreatorCurb.java"
+
+startProcessing "net/mcreator/kyleblocks/MCreatorDrywall.java" md5: f178f36134d1c91800d06d53621170b2
+endProcessing "net/mcreator/kyleblocks/MCreatorDrywall.java"
+
+startProcessing "net/mcreator/kyleblocks/MCreatorDrywallBlockDestroyedByPlayer.java" md5: bb890d78b07c5ff818000982cfb083d3
+endProcessing "net/mcreator/kyleblocks/MCreatorDrywallBlockDestroyedByPlayer.java"
+
+startProcessing "net/mcreator/kyleblocks/MCreatorGrate.java" md5: 031bad15b288c2cabb77d4cfeb009a55
+endProcessing "net/mcreator/kyleblocks/MCreatorGrate.java"
+
+startProcessing "net/mcreator/kyleblocks/MCreatorGratewhite.java" md5: 89d2e55ba0aa9e9f254894dfda80ae76
+endProcessing "net/mcreator/kyleblocks/MCreatorGratewhite.java"
+
+startProcessing "net/mcreator/kyleblocks/MCreatorGrateyellow.java" md5: ecf0a3d1b8cb9b9696a283d594830b34
+endProcessing "net/mcreator/kyleblocks/MCreatorGrateyellow.java"
+
+startProcessing "net/mcreator/kyleblocks/MCreatorKylesblocks.java" md5: d27692d4378cca35945391173d778a62
+endProcessing "net/mcreator/kyleblocks/MCreatorKylesblocks.java"
+
+startProcessing "net/mcreator/kyleblocks/MCreatorLight.java" md5: ffb4e4b1e2611988270b948220f5b785
+endProcessing "net/mcreator/kyleblocks/MCreatorLight.java"
+
+startProcessing "net/mcreator/kyleblocks/MCreatorPaloleaves.java" md5: 6bd357f7f6ce9e74eb56badb5307fedc
+endProcessing "net/mcreator/kyleblocks/MCreatorPaloleaves.java"
+
+startProcessing "net/mcreator/kyleblocks/MCreatorPalolog.java" md5: 91ff9eef26456e18b12a7315da583339
+endProcessing "net/mcreator/kyleblocks/MCreatorPalolog.java"
+
+startProcessing "net/mcreator/kyleblocks/MCreatorRestroomtiles.java" md5: b402965311cbc1d88eaf4a9bdce93de9
+endProcessing "net/mcreator/kyleblocks/MCreatorRestroomtiles.java"
+
+startProcessing "net/mcreator/kyleblocks/ServerProxykyleblocks.java" md5: 047408177a936a03bb9162f56c5984de
+endProcessing "net/mcreator/kyleblocks/ServerProxykyleblocks.java"
+
+startProcessing "net/mcreator/kyleblocks/kyleblocks.java" md5: 1154002c15a4d55f1ad33b388771b5b7
+endProcessing "net/mcreator/kyleblocks/kyleblocks.java"
+
+startProcessing "net/mcreator/kyleblocks/kyleblocksVariables.java" md5: bf9ee6311a359fbf038c7792b726fa48
+endProcessing "net/mcreator/kyleblocks/kyleblocksVariables.java"
+

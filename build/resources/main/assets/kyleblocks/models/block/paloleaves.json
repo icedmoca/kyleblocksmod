@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kyleblocks:blocks/paloleaves",
+    "up": "kyleblocks:blocks/paloleaves",
+    "north": "kyleblocks:blocks/paloleaves",
+    "east": "kyleblocks:blocks/paloleaves",
+    "south": "kyleblocks:blocks/paloleaves",
+    "west": "kyleblocks:blocks/paloleaves",
+    "particle": "kyleblocks:blocks/paloleaves"
+  }
+}

@@ -1,0 +1,702 @@
+Processing 20 files
+Start Processing: net/mcreator/kyleblocks/ClientProxykyleblocks.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.client.model.obj.OBJLoader
+End  Processing: net/mcreator/kyleblocks/ClientProxykyleblocks.java
+
+Start Processing: net/mcreator/kyleblocks/Elementskyleblocks.java
+New Key: class net/minecraftforge/fml/common/discovery/ASMDataTable
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks/ModElement
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/mcreator/kyleblocks/kyleblocksVariables
+New Key: class net/mcreator/kyleblocks/kyleblocksVariables
+New Key: class net/minecraftforge/event/RegistryEvent
+Rename field net/minecraft/world/World/provider[3289,3297]::provider->field_73011_w
+Rename field net/minecraft/entity/Entity/world[3678,3683]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[3692,3700]::isRemote->field_72995_K
+New Key: class net/mcreator/kyleblocks/kyleblocksVariables
+Rename field net/minecraft/entity/Entity/world[3788,3793]::world->field_70170_p
+New Key: class net/mcreator/kyleblocks/kyleblocksVariables
+Rename field net/minecraft/entity/Entity/world[3887,3892]::world->field_70170_p
+New Key: class net/mcreator/kyleblocks/kyleblocksVariables
+New Key: class net/mcreator/kyleblocks/kyleblocksVariables
+Rename field net/minecraft/entity/Entity/world[4401,4406]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4415,4423]::isRemote->field_72995_K
+New Key: class net/mcreator/kyleblocks/kyleblocksVariables
+Rename field net/minecraft/entity/Entity/world[4515,4520]::world->field_70170_p
+New Key: class net/mcreator/kyleblocks/kyleblocksVariables
+FOUND CONSTR method net/mcreator/kyleblocks/Elementskyleblocks/ModElement/ModElement (Lnet/mcreator/kyleblocks/Elementskyleblocks;I)V net/mcreator/kyleblocks/Elementskyleblocks/ModElement
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.IGuiHandler
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.discovery.ASMDataTable
+Import: net.minecraftforge.fml.common.IWorldGenerator
+Import: net.minecraftforge.fml.common.IFuelHandler
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 16 imports
+        java.util.ArrayList
+        java.util.Collections
+        java.util.List
+        java.util.Random
+        java.util.function.Supplier
+        net.minecraft.block.Block
+        net.minecraft.entity.player.EntityPlayer
+        net.minecraft.entity.player.EntityPlayerMP
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+        net.minecraft.potion.Potion
+        net.minecraft.world.World
+        net.minecraft.world.biome.Biome
+        net.minecraft.world.chunk.IChunkProvider
+        net.minecraft.world.gen.IChunkGenerator
+        net.minecraft.world.storage.WorldSavedData
+End  Processing: net/mcreator/kyleblocks/Elementskyleblocks.java
+
+Start Processing: net/mcreator/kyleblocks/IProxykyleblocks.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/mcreator/kyleblocks/IProxykyleblocks.java
+
+Start Processing: net/mcreator/kyleblocks/MCreatorBrokedrywall.java
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorBrokedrywall/MCreatorBrokedrywall (Lnet/mcreator/kyleblocks/Elementskyleblocks;)V net/mcreator/kyleblocks/MCreatorBrokedrywall
+Rename method net/minecraft/advancements/CriteriaTriggers/register (Lnet/minecraft/advancements/ICriterionTrigger;)Lnet/minecraft/advancements/ICriterionTrigger;[1032,1040]::register->func_192118_a
+New Key: class net/mcreator/kyleblocks/MCreatorBrokedrywall/CustomAdvancementTrigger
+Rename method net/minecraft/advancements/ICriterionTrigger/addListener (Lnet/minecraft/advancements/PlayerAdvancements;Lnet/minecraft/advancements/ICriterionTrigger$Listener;)V[1278,1289]::addListener->func_192165_a
+New Key: class net/minecraft/advancements/ICriterionTrigger
+New Key: class net/mcreator/kyleblocks/MCreatorBrokedrywall/CustomAdvancementTrigger
+New Key: class net/mcreator/kyleblocks/MCreatorBrokedrywall/CustomAdvancementTrigger
+Rename method net/minecraft/advancements/ICriterionTrigger/removeListener (Lnet/minecraft/advancements/PlayerAdvancements;Lnet/minecraft/advancements/ICriterionTrigger$Listener;)V[1701,1715]::removeListener->func_192164_b
+New Key: class net/minecraft/advancements/ICriterionTrigger
+New Key: class net/mcreator/kyleblocks/MCreatorBrokedrywall/CustomAdvancementTrigger
+Rename method net/minecraft/advancements/ICriterionTrigger/removeAllListeners (Lnet/minecraft/advancements/PlayerAdvancements;)V[2082,2100]::removeAllListeners->func_192167_a
+Rename method net/minecraft/advancements/ICriterionTrigger/getId ()Lnet/minecraft/util/ResourceLocation;[2235,2240]::getId->func_192163_a
+New Key: class net/mcreator/kyleblocks/MCreatorBrokedrywall/CustomAdvancementTrigger
+Rename method net/minecraft/advancements/ICriterionTrigger/deserializeInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lnet/minecraft/advancements/ICriterionInstance;[2366,2385]::deserializeInstance->func_192166_a
+New Key: class net/mcreator/kyleblocks/MCreatorBrokedrywall/CustomAdvancementTrigger
+Rename method net/minecraft/advancements/ICriterionTrigger/getId ()Lnet/minecraft/util/ResourceLocation;[2489,2494]::getId->func_192163_a
+New Key: class net/mcreator/kyleblocks/MCreatorBrokedrywall/CustomAdvancementTrigger
+Rename method net/minecraft/entity/player/EntityPlayerMP/getAdvancements ()Lnet/minecraft/advancements/PlayerAdvancements;[2656,2671]::getAdvancements->func_192039_O
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorBrokedrywall/CustomAdvancementTrigger/Instance/Instance (Lnet/minecraft/util/ResourceLocation;)V net/mcreator/kyleblocks/MCreatorBrokedrywall/CustomAdvancementTrigger/Instance
+New Key: class net/minecraft/advancements/ICriterionTrigger
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorBrokedrywall/CustomAdvancementTrigger/Listeners/Listeners (Lnet/minecraft/advancements/PlayerAdvancements;)V net/mcreator/kyleblocks/MCreatorBrokedrywall/CustomAdvancementTrigger/Listeners
+New Key: class net/minecraft/advancements/ICriterionTrigger
+Rename method net/minecraft/advancements/ICriterionTrigger/Listener/grantCriterion (Lnet/minecraft/advancements/PlayerAdvancements;)V[3302,3316]::grantCriterion->func_192159_a
+New Key: class net/minecraft/advancements/ICriterionTrigger
+New Key: class net/minecraft/advancements/ICriterionTrigger
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Adding 12 imports
+        com.google.common.collect.Maps
+        com.google.common.collect.Sets
+        com.google.gson.JsonDeserializationContext
+        com.google.gson.JsonObject
+        java.util.Map
+        java.util.Set
+        net.minecraft.advancements.CriteriaTriggers
+        net.minecraft.advancements.ICriterionTrigger
+        net.minecraft.advancements.PlayerAdvancements
+        net.minecraft.advancements.critereon.AbstractCriterionInstance
+        net.minecraft.entity.player.EntityPlayerMP
+        net.minecraft.util.ResourceLocation
+End  Processing: net/mcreator/kyleblocks/MCreatorBrokedrywall.java
+
+Start Processing: net/mcreator/kyleblocks/MCreatorCeilingtile.java
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorCeilingtile/MCreatorCeilingtile (Lnet/mcreator/kyleblocks/Elementskyleblocks;)V net/mcreator/kyleblocks/MCreatorCeilingtile
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1211,1227]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorCeilingtile/BlockCustom/BlockCustom ()V net/mcreator/kyleblocks/MCreatorCeilingtile/BlockCustom
+Rename field net/minecraft/block/material/Material/WOOD[1404,1408]::WOOD->field_151575_d
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1461,1479]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1495,1507]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/WOOD[1519,1523]::WOOD->field_185848_a
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1540,1551]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1563,1576]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1587,1600]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1610,1625]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1634,1648]::setCreativeTab->func_149647_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 6 imports
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+End  Processing: net/mcreator/kyleblocks/MCreatorCeilingtile.java
+
+Start Processing: net/mcreator/kyleblocks/MCreatorCeramicBlockTiles.java
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorCeramicBlockTiles/MCreatorCeramicBlockTiles (Lnet/mcreator/kyleblocks/Elementskyleblocks;)V net/mcreator/kyleblocks/MCreatorCeramicBlockTiles
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1376,1392]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorCeramicBlockTiles/BlockCustom/BlockCustom ()V net/mcreator/kyleblocks/MCreatorCeramicBlockTiles/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1580,1584]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1643,1661]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1683,1695]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1707,1712]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1728,1739]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1751,1764]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1775,1788]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1798,1813]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1822,1836]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/addInformation (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V[1897,1911]::addInformation->func_190948_a
+Rename method net/minecraft/block/Block/addInformation (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V[1995,2009]::addInformation->func_190948_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 10 imports
+        java.util.List
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.client.util.ITooltipFlag
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.item.ItemStack
+        net.minecraft.world.World
+End  Processing: net/mcreator/kyleblocks/MCreatorCeramicBlockTiles.java
+
+Start Processing: net/mcreator/kyleblocks/MCreatorCurb.java
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorCurb/MCreatorCurb (Lnet/mcreator/kyleblocks/Elementskyleblocks;)V net/mcreator/kyleblocks/MCreatorCurb
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1644,1660]::getItemFromBlock->func_150898_a
+Rename field net/minecraft/block/BlockDirectional/FACING[1852,1858]::FACING->field_176387_N
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorCurb/BlockCustom/BlockCustom ()V net/mcreator/kyleblocks/MCreatorCurb/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1915,1919]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1965,1983]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1992,2004]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[2016,2021]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2037,2048]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2060,2073]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2084,2097]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2107,2122]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2129,2143]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setDefaultState (Lnet/minecraft/block/state/IBlockState;)V[2178,2193]::setDefaultState->func_180632_j
+Rename field net/minecraft/block/Block/blockState[2197,2207]::blockState->field_176227_L
+Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[2212,2224]::getBaseState->func_177621_b
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2228,2240]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2344,2367]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2431,2440]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2485,2495]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2592,2602]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2689,2703]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[2790,2798]::getValue->func_177229_b
+Rename field net/minecraft/block/BlockDirectional/FACING[2821,2827]::FACING->field_176387_N
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[3402,3418]::createBlockState->func_180661_e
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[3555,3571]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[3597,3612]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[3613,3625]::withProperty->func_177226_a
+Rename method net/minecraft/util/EnumFacing/getFront (I)Lnet/minecraft/util/EnumFacing;[3646,3654]::getFront->func_82600_a
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[3701,3717]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3767,3775]::getValue->func_177229_b
+Rename method net/minecraft/util/EnumFacing/getIndex ()I[3790,3798]::getIndex->func_176745_a
+Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[3849,3869]::getStateForPlacement->func_180642_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4005,4020]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4021,4033]::withProperty->func_177226_a
+Rename method net/minecraft/util/EnumFacing/getDirectionFromEntityLiving (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/util/EnumFacing;[4054,4082]::getDirectionFromEntityLiving->func_190914_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[4121,4133]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 16 imports
+        net.minecraft.block.Block
+        net.minecraft.block.BlockDirectional
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.properties.IProperty
+        net.minecraft.block.properties.PropertyDirection
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.entity.EntityLivingBase
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.EnumFacing
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+        net.minecraft.world.World
+End  Processing: net/mcreator/kyleblocks/MCreatorCurb.java
+
+Start Processing: net/mcreator/kyleblocks/MCreatorDrywall.java
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorDrywall/MCreatorDrywall (Lnet/mcreator/kyleblocks/Elementskyleblocks;)V net/mcreator/kyleblocks/MCreatorDrywall
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1512,1528]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorDrywall/BlockCustom/BlockCustom ()V net/mcreator/kyleblocks/MCreatorDrywall/BlockCustom
+Rename field net/minecraft/block/material/Material/WOOD[1701,1705]::WOOD->field_151575_d
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1754,1772]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1784,1796]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/WOOD[1808,1812]::WOOD->field_185848_a
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1829,1840]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1852,1865]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1876,1889]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1899,1914]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1923,1937]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/addInformation (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V[1998,2012]::addInformation->func_190948_a
+Rename method net/minecraft/block/Block/addInformation (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V[2096,2110]::addInformation->func_190948_a
+Rename method net/minecraft/util/math/Vec3i/getX ()I[2430,2434]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[2463,2467]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[2496,2500]::getZ->func_177952_p
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 13 imports
+        java.util.List
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.client.util.ITooltipFlag
+        net.minecraft.entity.player.EntityPlayer
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.item.ItemStack
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.World
+End  Processing: net/mcreator/kyleblocks/MCreatorDrywall.java
+
+Start Processing: net/mcreator/kyleblocks/MCreatorDrywallBlockDestroyedByPlayer.java
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorDrywallBlockDestroyedByPlayer/MCreatorDrywallBlockDestroyedByPlayer (Lnet/mcreator/kyleblocks/Elementskyleblocks;)V net/mcreator/kyleblocks/MCreatorDrywallBlockDestroyedByPlayer
+Import: net.minecraft.entity.player.EntityPlayerMP
+Import: net.minecraft.entity.Entity
+End  Processing: net/mcreator/kyleblocks/MCreatorDrywallBlockDestroyedByPlayer.java
+
+Start Processing: net/mcreator/kyleblocks/MCreatorGrate.java
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorGrate/MCreatorGrate (Lnet/mcreator/kyleblocks/Elementskyleblocks;)V net/mcreator/kyleblocks/MCreatorGrate
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1482,1498]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorGrate/BlockCustom/BlockCustom ()V net/mcreator/kyleblocks/MCreatorGrate/BlockCustom
+Rename field net/minecraft/block/material/Material/IRON[1669,1673]::IRON->field_151573_f
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1720,1738]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1748,1760]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1772,1777]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1828,1839]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1851,1864]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1875,1888]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1898,1913]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1922,1936]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2035,2048]::getBlockLayer->func_180664_k
+Rename field net/minecraft/init/Blocks/IRON_BARS[2271,2280]::IRON_BARS->field_150411_aY
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 13 imports
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.init.Blocks
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.item.ItemStack
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.NonNullList
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+End  Processing: net/mcreator/kyleblocks/MCreatorGrate.java
+
+Start Processing: net/mcreator/kyleblocks/MCreatorGratewhite.java
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorGratewhite/MCreatorGratewhite (Lnet/mcreator/kyleblocks/Elementskyleblocks;)V net/mcreator/kyleblocks/MCreatorGratewhite
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1497,1513]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorGratewhite/BlockCustom/BlockCustom ()V net/mcreator/kyleblocks/MCreatorGratewhite/BlockCustom
+Rename field net/minecraft/block/material/Material/IRON[1689,1693]::IRON->field_151573_f
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1745,1763]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1778,1790]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1802,1807]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1823,1834]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1846,1859]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1870,1883]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1893,1908]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1917,1931]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2030,2043]::getBlockLayer->func_180664_k
+Rename field net/minecraft/init/Blocks/IRON_BARS[2266,2275]::IRON_BARS->field_150411_aY
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 13 imports
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.init.Blocks
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.item.ItemStack
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.NonNullList
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+End  Processing: net/mcreator/kyleblocks/MCreatorGratewhite.java
+
+Start Processing: net/mcreator/kyleblocks/MCreatorGrateyellow.java
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorGrateyellow/MCreatorGrateyellow (Lnet/mcreator/kyleblocks/Elementskyleblocks;)V net/mcreator/kyleblocks/MCreatorGrateyellow
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1500,1516]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorGrateyellow/BlockCustom/BlockCustom ()V net/mcreator/kyleblocks/MCreatorGrateyellow/BlockCustom
+Rename field net/minecraft/block/material/Material/IRON[1693,1697]::IRON->field_151573_f
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1750,1768]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1784,1796]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[1808,1813]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1829,1840]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1852,1865]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1876,1889]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1899,1914]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1923,1937]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2036,2049]::getBlockLayer->func_180664_k
+Rename field net/minecraft/init/Blocks/IRON_BARS[2272,2281]::IRON_BARS->field_150411_aY
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 13 imports
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.init.Blocks
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.item.ItemStack
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.NonNullList
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+End  Processing: net/mcreator/kyleblocks/MCreatorGrateyellow.java
+
+Start Processing: net/mcreator/kyleblocks/MCreatorKylesblocks.java
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorKylesblocks/MCreatorKylesblocks (Lnet/mcreator/kyleblocks/Elementskyleblocks;)V net/mcreator/kyleblocks/MCreatorKylesblocks
+Rename method net/minecraft/creativetab/CreativeTabs/getTabIconItem ()Lnet/minecraft/item/ItemStack;[554,568]::getTabIconItem->func_78016_d
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Adding 2 imports
+        net.minecraft.creativetab.CreativeTabs
+        net.minecraft.item.ItemStack
+End  Processing: net/mcreator/kyleblocks/MCreatorKylesblocks.java
+
+Start Processing: net/mcreator/kyleblocks/MCreatorLight.java
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorLight/MCreatorLight (Lnet/mcreator/kyleblocks/Elementskyleblocks;)V net/mcreator/kyleblocks/MCreatorLight
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1464,1480]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorLight/BlockCustom/BlockCustom ()V net/mcreator/kyleblocks/MCreatorLight/BlockCustom
+Rename field net/minecraft/block/material/Material/GLASS[1651,1656]::GLASS->field_151592_s
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1702,1720]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1730,1742]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/GROUND[1754,1760]::GROUND->field_185849_b
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1775,1786]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1798,1811]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1822,1835]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1845,1860]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1868,1882]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[1981,1994]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2114,2137]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2201,2210]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2255,2265]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2362,2372]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2453,2465]::isOpaqueCube->func_149662_c
+Rename method net/minecraft/block/Block/getMapColor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/material/MapColor;[2545,2556]::getMapColor->func_180659_g
+Rename field net/minecraft/block/material/MapColor/QUARTZ[2640,2646]::QUARTZ->field_151677_p
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 12 imports
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.MapColor
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+End  Processing: net/mcreator/kyleblocks/MCreatorLight.java
+
+Start Processing: net/mcreator/kyleblocks/MCreatorPaloleaves.java
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorPaloleaves/MCreatorPaloleaves (Lnet/mcreator/kyleblocks/Elementskyleblocks;)V net/mcreator/kyleblocks/MCreatorPaloleaves
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1652,1668]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorPaloleaves/BlockCustom/BlockCustom ()V net/mcreator/kyleblocks/MCreatorPaloleaves/BlockCustom
+Rename field net/minecraft/block/material/Material/LEAVES[1844,1850]::LEAVES->field_151584_j
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1900,1918]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1933,1945]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[1957,1962]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1978,1989]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2001,2014]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2025,2038]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2048,2063]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2070,2084]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/addInformation (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V[2145,2159]::addInformation->func_190948_a
+Rename method net/minecraft/block/Block/addInformation (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V[2243,2257]::addInformation->func_190948_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2396,2409]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2524,2547]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2611,2620]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2665,2675]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2772,2782]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2863,2875]::isOpaqueCube->func_149662_c
+Rename field net/minecraft/init/Items/STICK[3092,3097]::STICK->field_151055_y
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 17 imports
+        java.util.List
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.client.util.ITooltipFlag
+        net.minecraft.init.Items
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.item.ItemStack
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.NonNullList
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+        net.minecraft.world.World
+End  Processing: net/mcreator/kyleblocks/MCreatorPaloleaves.java
+
+Start Processing: net/mcreator/kyleblocks/MCreatorPalolog.java
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorPalolog/MCreatorPalolog (Lnet/mcreator/kyleblocks/Elementskyleblocks;)V net/mcreator/kyleblocks/MCreatorPalolog
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1605,1621]::getItemFromBlock->func_150898_a
+Rename field net/minecraft/block/BlockDirectional/FACING[1816,1822]::FACING->field_176387_N
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorPalolog/BlockCustom/BlockCustom ()V net/mcreator/kyleblocks/MCreatorPalolog/BlockCustom
+Rename field net/minecraft/block/material/Material/WOOD[1879,1883]::WOOD->field_151575_d
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1932,1950]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1962,1974]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/WOOD[1986,1990]::WOOD->field_185848_a
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2038,2049]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2061,2074]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2085,2098]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2108,2123]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2130,2144]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setDefaultState (Lnet/minecraft/block/state/IBlockState;)V[2179,2194]::setDefaultState->func_180632_j
+Rename field net/minecraft/block/Block/blockState[2198,2208]::blockState->field_176227_L
+Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[2213,2225]::getBaseState->func_177621_b
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2229,2241]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[2350,2366]::createBlockState->func_180661_e
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[2503,2519]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[2545,2560]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2561,2573]::withProperty->func_177226_a
+Rename method net/minecraft/util/EnumFacing/getFront (I)Lnet/minecraft/util/EnumFacing;[2594,2602]::getFront->func_82600_a
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[2649,2665]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[2715,2723]::getValue->func_177229_b
+Rename method net/minecraft/util/EnumFacing/getIndex ()I[2738,2746]::getIndex->func_176745_a
+Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[2797,2817]::getStateForPlacement->func_180642_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[3189,3204]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[3205,3217]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[3274,3286]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 15 imports
+        net.minecraft.block.Block
+        net.minecraft.block.BlockDirectional
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.properties.IProperty
+        net.minecraft.block.properties.PropertyDirection
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.entity.EntityLivingBase
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.EnumFacing
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+        net.minecraft.world.World
+End  Processing: net/mcreator/kyleblocks/MCreatorPalolog.java
+
+Start Processing: net/mcreator/kyleblocks/MCreatorRestroomtiles.java
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorRestroomtiles/MCreatorRestroomtiles (Lnet/mcreator/kyleblocks/Elementskyleblocks;)V net/mcreator/kyleblocks/MCreatorRestroomtiles
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1217,1233]::getItemFromBlock->func_150898_a
+FOUND CONSTR method net/mcreator/kyleblocks/MCreatorRestroomtiles/BlockCustom/BlockCustom ()V net/mcreator/kyleblocks/MCreatorRestroomtiles/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1417,1421]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1476,1494]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1512,1524]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[1536,1541]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1557,1568]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1580,1593]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1604,1617]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1627,1642]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1651,1665]::setCreativeTab->func_149647_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 6 imports
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+End  Processing: net/mcreator/kyleblocks/MCreatorRestroomtiles.java
+
+Start Processing: net/mcreator/kyleblocks/ServerProxykyleblocks.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/mcreator/kyleblocks/ServerProxykyleblocks.java
+
+Start Processing: net/mcreator/kyleblocks/kyleblocks.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/mcreator/kyleblocks/Elementskyleblocks
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper
+Import: net.minecraftforge.fml.common.network.NetworkRegistry
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fluids.FluidRegistry
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 5 imports
+        java.util.function.Supplier
+        net.minecraft.block.Block
+        net.minecraft.item.Item
+        net.minecraft.potion.Potion
+        net.minecraft.world.biome.Biome
+End  Processing: net/mcreator/kyleblocks/kyleblocks.java
+
+Start Processing: net/mcreator/kyleblocks/kyleblocksVariables.java
+FOUND CONSTR method net/mcreator/kyleblocks/kyleblocksVariables/MapVariables/MapVariables ()V net/mcreator/kyleblocks/kyleblocksVariables/MapVariables
+FOUND CONSTR method net/mcreator/kyleblocks/kyleblocksVariables/MapVariables/MapVariables (Ljava/lang/String;)V net/mcreator/kyleblocks/kyleblocksVariables/MapVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[832,843]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[912,922]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[1019,1028]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[1049,1057]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1357,1370]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[1373,1386]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1493,1506]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[1509,1516]::setData->func_75745_a
+FOUND CONSTR method net/mcreator/kyleblocks/kyleblocksVariables/WorldVariables/WorldVariables ()V net/mcreator/kyleblocks/kyleblocksVariables/WorldVariables
+FOUND CONSTR method net/mcreator/kyleblocks/kyleblocksVariables/WorldVariables/WorldVariables (Ljava/lang/String;)V net/mcreator/kyleblocks/kyleblocksVariables/WorldVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[1856,1867]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1936,1946]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[2043,2052]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[2073,2081]::isRemote->field_72995_K
+Rename field net/minecraft/world/World/provider[2281,2289]::provider->field_73011_w
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[2450,2463]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[2595,2602]::setData->func_75745_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[2961,2967]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[2976,2990]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[2991,3007]::addScheduledTask->func_152344_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[3073,3079]::player->field_147369_b
+Rename field net/minecraft/entity/Entity/world[3088,3093]::world->field_70170_p
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3129,3141]::getMinecraft->func_71410_x
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[3144,3160]::addScheduledTask->func_152344_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3201,3213]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[3216,3222]::player->field_71439_g
+Rename field net/minecraft/entity/Entity/world[3230,3235]::world->field_70170_p
+Rename field net/minecraft/world/World/provider[3562,3570]::provider->field_73011_w
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[3639,3652]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3655,3662]::setData->func_75745_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3752,3759]::setData->func_75745_a
+FOUND CONSTR method net/mcreator/kyleblocks/kyleblocksVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage ()V net/mcreator/kyleblocks/kyleblocksVariables/WorldSavedDataSyncMessage
+FOUND CONSTR method net/mcreator/kyleblocks/kyleblocksVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage (ILnet/minecraft/world/storage/WorldSavedData;)V net/mcreator/kyleblocks/kyleblocksVariables/WorldSavedDataSyncMessage
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[4250,4260]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[4518,4529]::readFromNBT->func_76184_a
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.ByteBufUtils
+Adding 4 imports
+        net.minecraft.client.Minecraft
+        net.minecraft.nbt.NBTTagCompound
+        net.minecraft.world.World
+        net.minecraft.world.storage.WorldSavedData
+End  Processing: net/mcreator/kyleblocks/kyleblocksVariables.java
+

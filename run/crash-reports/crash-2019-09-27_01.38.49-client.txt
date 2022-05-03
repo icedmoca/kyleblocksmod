@@ -1,0 +1,133 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 9/27/19 1:38 AM
+Description: Exception while adding particle
+
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at net.minecraft.client.particle.ParticleFallingDust$Factory.createParticle(ParticleFallingDust.java:85)
+	at net.minecraft.client.particle.ParticleManager.spawnEffectParticle(ParticleManager.java:147)
+	at net.minecraft.client.renderer.RenderGlobal.spawnParticle0(RenderGlobal.java:2237)
+	at net.minecraft.client.renderer.RenderGlobal.spawnParticle(RenderGlobal.java:2180)
+	at net.minecraft.client.renderer.RenderGlobal.spawnParticle(RenderGlobal.java:2173)
+	at net.minecraft.world.World.spawnParticle(World.java:1270)
+	at net.minecraft.world.World.spawnParticle(World.java:1245)
+	at net.mcreator.kyleblocks.MCreatorPalolog$BlockCustom.randomDisplayTick(MCreatorPalolog.java:127)
+	at net.minecraft.client.multiplayer.WorldClient.showBarrierParticles(WorldClient.java:391)
+	at net.minecraft.client.multiplayer.WorldClient.doVoidFogParticles(WorldClient.java:380)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:2020)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1187)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:441)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at net.minecraft.client.particle.ParticleFallingDust$Factory.createParticle(ParticleFallingDust.java:85)
+	at net.minecraft.client.particle.ParticleManager.spawnEffectParticle(ParticleManager.java:147)
+	at net.minecraft.client.renderer.RenderGlobal.spawnParticle0(RenderGlobal.java:2237)
+
+-- Particle being added --
+Details:
+	ID: 46
+	Parameters: [I@4c6e7fe8
+	Position: 1220.57,4.09,-346.22 - World: (1220,4,-347), Chunk: (at 4,0,5 in 76,-22; contains blocks 1216,0,-352 to 1231,255,-337), Region: (2,-1; contains chunks 64,-32 to 95,-1, blocks 1024,0,-512 to 1535,255,-1)
+Stacktrace:
+	at net.minecraft.client.renderer.RenderGlobal.spawnParticle(RenderGlobal.java:2180)
+	at net.minecraft.client.renderer.RenderGlobal.spawnParticle(RenderGlobal.java:2173)
+	at net.minecraft.world.World.spawnParticle(World.java:1270)
+	at net.minecraft.world.World.spawnParticle(World.java:1245)
+	at net.mcreator.kyleblocks.MCreatorPalolog$BlockCustom.randomDisplayTick(MCreatorPalolog.java:127)
+	at net.minecraft.client.multiplayer.WorldClient.showBarrierParticles(WorldClient.java:391)
+	at net.minecraft.client.multiplayer.WorldClient.doVoidFogParticles(WorldClient.java:380)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Player187'/11, l='MpServer', x=1222.36, y=4.00, z=-346.56]]
+	Chunk stats: MultiplayerChunkCache: 625, 625
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (1226,4,-340), Chunk: (at 10,0,12 in 76,-22; contains blocks 1216,0,-352 to 1231,255,-337), Region: (2,-1; contains chunks 64,-32 to 95,-1, blocks 1024,0,-512 to 1535,255,-1)
+	Level time: 2046 game time, 2046 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 37 total; [EntitySlime['Slime'/54658, l='MpServer', x=1216.86, y=4.00, z=-313.02], EntityCow['Cow'/76293, l='MpServer', x=1297.48, y=4.00, z=-347.98], EntityChicken['Chicken'/76292, l='MpServer', x=1299.50, y=4.00, z=-345.50], EntityCow['Cow'/76295, l='MpServer', x=1288.17, y=4.00, z=-350.50], EntityPlayerSP['Player187'/11, l='MpServer', x=1222.36, y=4.00, z=-346.56], EntityCow['Cow'/76294, l='MpServer', x=1291.89, y=4.00, z=-348.84], EntityDonkey['Donkey'/76235, l='MpServer', x=1297.50, y=4.00, z=-321.50], EntityHorse['Horse'/76237, l='MpServer', x=1296.50, y=4.00, z=-314.50], EntitySlime['Slime'/303496, l='MpServer', x=1198.77, y=4.00, z=-329.01], EntityDonkey['Donkey'/76236, l='MpServer', x=1292.19, y=4.00, z=-311.45], EntityHorse['Horse'/76239, l='MpServer', x=1301.50, y=4.00, z=-314.50], EntityHorse['Horse'/76238, l='MpServer', x=1301.50, y=4.00, z=-311.50], EntitySlime['Slime'/177357, l='MpServer', x=1220.32, y=4.00, z=-268.56], EntitySlime['Slime'/52048, l='MpServer', x=1171.10, y=4.00, z=-381.81], EntitySlime['Slime'/259795, l='MpServer', x=1193.05, y=4.00, z=-335.31], EntityChicken['Chicken'/76240, l='MpServer', x=1299.22, y=4.00, z=-318.55], EntityPig['Pig'/76310, l='MpServer', x=1259.50, y=4.00, z=-265.50], EntitySlime['Slime'/309331, l='MpServer', x=1228.16, y=5.17, z=-313.17], EntitySlime['Slime'/311005, l='MpServer', x=1218.70, y=4.34, z=-266.87], EntitySlime['Slime'/171295, l='MpServer', x=1230.45, y=4.00, z=-351.47], EntityCow['Cow'/76255, l='MpServer', x=1146.50, y=4.00, z=-422.50], EntityHorse['Horse'/76257, l='MpServer', x=1146.50, y=4.00, z=-416.50], EntityHorse['Horse'/76256, l='MpServer', x=1149.88, y=4.00, z=-415.15], EntitySlime['Slime'/125792, l='MpServer', x=1242.45, y=4.42, z=-373.67], EntitySlime['Slime'/199073, l='MpServer', x=1162.17, y=4.00, z=-341.63], EntitySlime['Slime'/215393, l='MpServer', x=1169.24, y=4.95, z=-340.63], EntityCow['Cow'/76258, l='MpServer', x=1147.50, y=4.00, z=-418.50], EntitySlime['Slime'/391713, l='MpServer', x=1213.50, y=4.00, z=-271.67], EntitySlime['Slime'/403619, l='MpServer', x=1298.36, y=4.42, z=-377.31], EntitySlime['Slime'/98919, l='MpServer', x=1255.07, y=4.00, z=-363.94], EntitySlime['Slime'/373162, l='MpServer', x=1224.06, y=4.00, z=-309.01], EntitySheep['Sheep'/76281, l='MpServer', x=1243.50, y=4.00, z=-276.50], EntitySheep['Sheep'/76283, l='MpServer', x=1239.50, y=4.00, z=-275.50], EntityCow['Cow'/76282, l='MpServer', x=1228.85, y=4.00, z=-269.68], EntitySlime['Slime'/45117, l='MpServer', x=1258.15, y=4.55, z=-328.29], EntitySheep['Sheep'/76284, l='MpServer', x=1237.75, y=4.00, z=-273.35], EntitySlime['Slime'/320185, l='MpServer', x=1298.39, y=5.25, z=-326.07]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:461)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2888)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:462)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_222, BellSoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), 
+	Memory: 1510143408 bytes (1440 MB) / 2128084992 bytes (2029 MB) up to 7618953216 bytes (7266 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2768 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State     | ID         | Version      | Source                           | Signature |
+	|:--------- |:---------- |:------------ |:-------------------------------- |:--------- |
+	| UCHIJAAAA | minecraft  | 1.12.2       | minecraft.jar                    | None      |
+	| UCHIJAAAA | mcp        | 9.42         | minecraft.jar                    | None      |
+	| UCHIJAAAA | FML        | 8.0.99.99    | forgeSrc-1.12.2-14.23.5.2768.jar | None      |
+	| UCHIJAAAA | forge      | 14.23.5.2768 | forgeSrc-1.12.2-14.23.5.2768.jar | None      |
+	| UCHIJAAAA | kyleblocks | 1.0.0        | modid-1.0.jar                    | None      |
+
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 431.60' Renderer: 'GeForce GTX 950/PCIe/SSE2'
+	Launched Version: 1.12.2
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 950/PCIe/SSE2 GL version 4.6.0 NVIDIA 431.60, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 12x Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz

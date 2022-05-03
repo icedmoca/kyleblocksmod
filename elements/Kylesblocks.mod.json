@@ -1,0 +1,11 @@
+{
+  "_fv": 4,
+  "_type": "tab",
+  "definition": {
+    "name": "Kyles Blocks",
+    "icon": {
+      "value": "CUSTOM:Ceilingtile"
+    },
+    "showSearch": false
+  }
+}

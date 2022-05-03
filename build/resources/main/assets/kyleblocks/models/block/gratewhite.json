@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "kyleblocks:blocks/decorativeblockb7",
+    "particle": "kyleblocks:blocks/decorativeblockb7"
+  }
+}
